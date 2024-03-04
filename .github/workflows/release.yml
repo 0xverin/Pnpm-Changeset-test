@@ -35,11 +35,13 @@ jobs:
       - name: Build Packages
         run: pnpm run build
 
+      - name: Setup npm config
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=\${{ secrets.RELEASE_TS_API_PACKAGE_TOKEN }}" > .npmrc
+          npm config set @litentry:registry https://npm.pkg.github.com
+
       - name: Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
           publish: pnpm release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
