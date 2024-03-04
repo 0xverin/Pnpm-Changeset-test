@@ -1,4 +1,4 @@
-# @luhengchang228/monorepo-pkg-a
+# @verin1005/monorepo-pkg-a
 
 ## 0.1.1
 
