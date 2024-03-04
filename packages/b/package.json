@@ -6,7 +6,7 @@
         "dist"
     ],
     "dependencies": {
-        "@verin1005/monorepo-pkg-a": "^0.1.0"
+        "@luhengchang228/monorepo-pkg-a": "^0.1.0"
     },
     "devDependencies": {
         "typescript": "^4.9.4"
