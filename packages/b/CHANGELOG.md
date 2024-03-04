@@ -1,5 +1,11 @@
 # @verin1005/monorepo-pkg-b
 
+## 1.0.0
+
+### Major Changes
+
+- test
+
 ## 0.0.1
 
 ### Patch Changes
