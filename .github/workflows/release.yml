@@ -39,7 +39,7 @@ jobs:
       - name: Setup npm config
         run: |
           echo "//npm.pkg.github.com/:_authToken=\${{ secrets.RELEASE_TS_API_PACKAGE_TOKEN }}" > .npmrc
-          npm config set @verin1005:registry https://npm.pkg.github.com
+          npm config set @0xverin:registry https://npm.pkg.github.com
 
       - name: Publish to npm
         id: changesets

@@ -1,5 +1,5 @@
 {
-    "name": "@verin1005/monorepo-pkg-b",
+    "name": "@0xverin/monorepo-pkg-b",
     "version": "0.0.1",
     "main": "dist/index.js",
     "files": [
