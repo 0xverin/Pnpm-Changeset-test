@@ -46,3 +46,5 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: pnpm release
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TS_API_PACKAGE_TOKEN }}
